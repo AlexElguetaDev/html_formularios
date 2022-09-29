@@ -1,0 +1,83 @@
+body{
+  background-image: url(/html_formularios/img/wallpaperbetter.jpg);
+}
+
+div{
+  display: flex;
+  width: 40vw;
+  height: 70vh;
+  margin: 0 auto;
+  backdrop-filter: blur(100px);
+}
+
+form {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: azure;
+  text-align: center;
+}
+
+.idioma{
+  color: azure;
+  border-radius: 10px;
+  width: 35vw;
+  text-align: center;
+}
+
+.conector{
+  color: azure;
+  border-radius: 10px;
+  width: 35vw;
+  text-align: center;
+}
+
+.conector select{
+  width: 15vw;
+  background-color: rgb(212, 212, 212);
+}
+
+.textos{
+  color: azure;
+  border-radius: 10px;
+  width: 35vw;
+  text-align: center;
+}
+
+.textos input{
+  border-radius: 10px;
+  width: 15vw;
+}
+
+.sexo{
+  color: azure;
+  border-radius: 10px;
+  width: 35vw;
+  text-align: center;
+}
+
+.sexo select{
+  border-radius: 10px;
+  width: 15vw;
+  height: 20px;
+  text-align: center;
+}
+
+.fecha{
+  color: azure;
+  border-radius: 10px;
+  width: 35vw;
+  text-align: center;
+}
+
+.fecha input{
+  border-radius: 10px;
+  width: 15vw;
+  text-align: center;
+}

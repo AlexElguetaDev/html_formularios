@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tarea HTML_Formularios de Alex Elgueta</title>
+</head>
+<body>
+  <h1>Formulario LarnU</h1>
+<div>
+  <form>
+    <!-- input radio -->
+    <fieldset class="idioma">
+      <legend>Que idioma hablas?</legend>
+        <label><input class="idiomainput" type="radio" name="idioma">Inglés</label>
+        <label><input class="idiomainput" type="radio" name="idioma">Alemán</label>
+        <label><input class="idiomainput" type="radio" name="idioma">Francés</label>
+    </fieldset>
+    <!-- select -->
+    <fieldset class="conector">
+      <legend>conector</legend>
+      <select class="conector" name="conector">
+        <option value="usb">USB</option>
+        <option value="paralelo">Paralelo</option>
+        <option value="ps2">PS2</option>
+      </select>
+    </fieldset>
+    <!-- textos  -->
+    <fieldset class="textos">
+      <legend>como te llamas?</legend>
+        <label>Nombre<input type="text"></label><br>
+        <label>Apellido<input type="text"></label>
+    </fieldset>
+    <!-- sexos -->
+    <fieldset class="sexo">
+      <legend>Tu sexo es?</legend>
+      <select class="sexo_select" multiple name="sexo">
+        <option value="sexohombre">Hombre</option>
+        <option value="sexomujer">Mujer</option>
+      </select>
+    </fieldset>
+    <!-- fecha -->
+    <fieldset class="fecha">
+      <legend>Fecha de nacimiento</legend>
+      <input type="date" value="2022-09-28">
+    </fieldset>
+  </form>
+</div>
+</body>
+</html>
