@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tarea HTML_Formularios de Alex Elgueta</title>
+</head>
+<body>
+  <h1>Formulario LarnU 2</h1>
+  <div class="index2">
+    <form>
+      <!-- date fichero -->
+      <fieldset class="fiel">
+        <legend>Subir Fichero</legend>
+          <input type="date">
+          <input type="file">
+      </fieldset>
+      <!-- procesadores -->
+      <fieldset class="fiel">
+        <legend>Procesador</legend>
+          <label><input type="radio" name="procesador" value="procesadoramd">AMD</label>
+          <label><input type="radio" name="procesador" value="procesadorintel_i5">Intel i5</label>
+          <label><input type="radio" name="procesador" value="procesadorintel_i7">Intel i7</label>
+      </fieldset>
+      <!-- datos -->
+      <fieldset class="datospersonales">
+        <legend>Datos personales</legend>
+          <label>Nombre:<input type="text" name="nombre" ></label>
+          <label>Apellidos:<input type="text" name="apellidos" ></label>
+          <label>Direccion:<input type="text" name="direccion" ></label>
+      </fieldset>
+      <!-- color -->
+      <fieldset class="fiel">
+         <label>Selecciona un color :<input type="color"></label>
+      </fieldset>
+      <!-- textarea -->
+      <fieldset class="fiel">
+        <legend>Escribe algo lindo</legend>
+        <textarea name="" id="" cols="59" rows="6" placeholder="Utilice este cuadro para escribir"></textarea>
+      </fieldset>
+      <!-- fecha otra vez -->
+      <fieldset class="fiel">
+        <legend>Fecha</legend>
+          <input type="date">
+      </fieldset>
+      <!-- idiomas pero con select -->
+      <fieldset class="fiel">
+        <legend>Que idioma hablas?</legend>
+          <select name="idioma">
+            <option value="ingles">Inglés</option>
+            <option value="aleman">Alemán</option>
+            <option value="frances">Francés</option>
+          </select>
+      </fieldset>
+      <!-- hora y fichero -->
+      <fieldset class="fiel">
+        <legend>Subir Fichero</legend>
+          <input type="time">
+          <input type="file">
+      </fieldset>
+      <!-- sexo -->
+      <fieldset class="fiel">
+        <legend>Seleciona</legend>
+          <label><input type="checkbox" name="sexo" value="sexomujer">Mujer</label>
+          <label><input type="checkbox" name="sexo" value="sexohombre">Hombre</label>
+      </fieldset>
+    </form>
+  </div>
+  <div class="button">
+    <a href="/html_formularios/index.html"><button class="sig_form">Volver</button></a>
+    </div>
+</body>
+</html>
