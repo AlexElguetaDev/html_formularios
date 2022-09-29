@@ -4,55 +4,48 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Tarea HTML_Formularios de Alex Elgueta</title>
+  <title>HTML_Formularios</title>
 </head>
 <body>
-  <h1>Formulario LarnU</h1>
-<div>
-  <form>
-    <!-- input radio -->
-    <fieldset class="idioma">
-      <legend>Que idioma hablas?</legend>
-        <label><input class="idiomainput" type="radio" name="idioma">Inglés</label>
-        <label><input class="idiomainput" type="radio" name="idioma">Alemán</label>
-        <label><input class="idiomainput" type="radio" name="idioma">Francés</label>
-    </fieldset>
-    <!-- select -->
-    <fieldset class="conector">
-      <legend>conector</legend>
-      <select class="conector" name="conector">
+  <h1>Tarea HTML_Formularios de Alex Elgueta</h1>
+  <div>
+    <form action="">
+    <fieldset>
+      <legend>Completar</legend>
+      <!-- idiomas -->
+        <label><input type="radio" name="idioma" id="" value="idiomaingles">Inglés</label>
+        <label><input type="radio" name="idioma" id="" value="idiomaaleman">Alemán</label>
+        <label><input type="radio" name="idioma" id="" value="idiomafrances">Francés</label>
+      <!-- conector -->
+      <select name="" id="">
         <option value="usb">USB</option>
         <option value="paralelo">Paralelo</option>
-        <option value="ps2">PS2</option>
+        <option value="ps2">Ps2</option>
       </select>
+      <!-- textos -->
     </fieldset>
-    <!-- textos  -->
-    <fieldset class="textos">
-      <legend>como te llamas?</legend>
-        <label>Nombre<input type="text"></label><br>
-        <label>Apellido<input type="text"></label>
+    <fieldset>
+      <legend>Tus datos</legend>
+      <label>Nombre<input type="text" name="nombre" id=""></label>
+      <label>Apellido<input type="text" name="apelido" id=""></label>
     </fieldset>
-    <!-- sexos -->
-    <fieldset class="sexo">
-      <legend>Tu sexo es?</legend>
-      <select class="sexo_select" multiple name="sexo">
-        <option value="sexohombre">Hombre</option>
-        <option value="sexomujer">Mujer</option>
+      <!-- Lista multiple -->
+      <select multiple name="sexo" id="">
+        <option value="hombre">Hombre</option>
+        <option value="mujer">Mujer</option>
       </select>
+      <!-- Checkboxes -->
+    <fieldset>
+      <legend>Selecciona</legend>
+      <label>Mujer<input name="mujer" value="sexomujer" type="checkbox"></label>
+      <label>Mujer<input name="hombre" value="sexohombre" type="checkbox"></label>
     </fieldset>
-    <!-- fecha -->
-    <fieldset class="fecha">
-      <legend>Fecha de nacimiento</legend>
-      <input type="date" value="2022-09-28">
+    <fieldset>
+      <legend>Indicanos la fecha</legend>
+      <input type="date">
     </fieldset>
-    <div class="button">
-      <button class="enviar" type="submit" onClick="alert('¡Gracias, Formulario Enviado!')">Enviar</button>
-    </div>
-  </form>
-  <div class="button">
-    <a href="/html_formularios/index2.html"><button class="sig_form">Siguiente</button></a>
+    </form>
+    <a style="text-decoration: none;" href="/html_formularios/index2.html">Vamos al siguiente formulario</a>
   </div>
-</div>
 </body>
 </html>
